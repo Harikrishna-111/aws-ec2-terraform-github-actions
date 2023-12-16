@@ -1,6 +1,6 @@
 variable "ami" {
   description = "EC2 instance AMI ID"
-  default     = "ami-0287a05f0ef0e9d9a"  # Update with a valid AMI
+  default     = "ami-0aee0743bf2e81172"  # Update with a valid AMI
 }
 
 variable "instance_type" {
@@ -21,7 +21,7 @@ variable "iam_instance_profile" {
 
 variable "key_name" {
   description = "EC2 instance key pair name"
-  default     = "krishna key"  # Update with a valid key name
+  default     = "harikey"  # Update with a valid key name
 }
 
 variable "security_groups" {
